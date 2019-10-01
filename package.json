@@ -1,0 +1,30 @@
+{
+  "name": "create_sitemap",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "eslint 'src/**/*.ts'",
+    "lint:fix": "eslint --fix 'src/**/*.ts'"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {},
+  "dependencies": {
+    "@types/cheerio": "^0.22.13",
+    "@types/node": "^12.7.8",
+    "@types/puppeteer": "^1.20.0",
+    "@types/xml2js": "^0.4.5",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "axios": "^0.19.0",
+    "eslint": "^6.5.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "puppeteer": "^1.20.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
